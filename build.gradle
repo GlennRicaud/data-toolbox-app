@@ -1,0 +1,107 @@
+plugins {
+    id "com.enonic.xp.app" version "2.0.0"
+    id "com.jfrog.bintray" version "1.8.4"
+    id "com.eriwen.gradle.js" version "2.14.1"
+}
+
+app {
+    name = project.appName
+    displayName = 'Data Toolbox'
+    vendorName = 'Glenn Ricaud'
+    vendorUrl = ''
+    systemVersion = "${xpVersion}"
+}
+
+configurations {
+    rcdjsfwkcore
+    rcdjsfwkmaterial
+    datatoolboxbase
+}
+
+dependencies {
+    compile "com.enonic.xp:core-api:${xpVersion}"
+    compile "com.enonic.xp:admin-api:${xpVersion}"
+    compile "com.enonic.xp:portal-api:${xpVersion}"
+    include "com.enonic.xp:lib-auth:${xpVersion}"
+    include "com.enonic.xp:lib-content:${xpVersion}"
+    include "com.enonic.xp:lib-context:${xpVersion}"
+    include "com.enonic.xp:lib-portal:${xpVersion}"
+    include "com.enonic.xp:lib-io:${xpVersion}"
+    include "com.enonic.xp:lib-repo:${xpVersion}"
+    include "com.enonic.xp:lib-node:${xpVersion}"
+    include "com.enonic.xp:lib-task:${xpVersion}"
+    include 'com.enonic.lib:lib-mustache:2.0.0'
+    include "systems.rcd.fwk.core:rcd-fwk-core:7.2.0"
+    rcdjsfwkcore "systems.rcd.js.fwk.core:rcd-jsfwk-core:3.1.0"
+    rcdjsfwkmaterial "systems.rcd.js.fwk.material:rcd-jsfwk-material:4.0.0"
+    datatoolboxbase( "systems.rcd.enonic:datatoolbox-base:1.0.0-alpha-1" ) {
+        transitive = false
+    }
+    compile "systems.rcd.js.fwk.core:rcd-jsfwk-core:3.1.0"
+    compile "systems.rcd.js.fwk.material:rcd-jsfwk-material:4.0.0"
+    compile "org.elasticsearch:elasticsearch:2.4.6"
+}
+
+
+repositories {
+    mavenLocal()
+    jcenter()
+    maven {
+        url 'http://repo.enonic.com/public'
+    }
+    maven {
+        url "http://dl.bintray.com/rcd-systems/rcd-repo"
+    }
+}
+
+task extractRcdJsFwk( type: Copy ) {
+    from { configurations.rcdjsfwkcore.collect { zipTree( it ); } }
+    from { configurations.rcdjsfwkmaterial.collect { zipTree( it ); } }
+    from { configurations.datatoolboxbase.collect { zipTree( it ); } }
+    into "${rootProject.buildDir}/resources/main/"
+    exclude 'META-INF/**'
+}
+processResources.dependsOn extractRcdJsFwk
+
+
+task mergeJsFwk( type: com.eriwen.gradle.js.tasks.CombineJsTask ) {
+    source = ["${rootProject.buildDir}/resources/main/assets/js/rcd-jsfwk-core.js",
+              "${rootProject.buildDir}/resources/main/assets/js/rcd-jsfwk-material.js"]
+    dest = file( "${rootProject.buildDir}/resources/main/assets/js/rcd-jsfwk.js" )
+}
+
+//TODO Rewrite this workaround
+task dirtyWidgetWorkaround( type: Copy, dependsOn: mergeJsFwk ) {
+    def jsFwkFile = file( "${rootProject.buildDir}/resources/main/assets/js/rcd-jsfwk.js" )
+    def jsFwkContent = jsFwkFile.exists() ? "\n" + jsFwkFile.getText( "UTF-8" ) : "error"
+    def dataToolboxCommonFile = file( "${rootProject.buildDir}/resources/main/assets/js/data-toolbox-common.js" )
+    def dataToolboxCommonContent = dataToolboxCommonFile.exists() ? "\n" + dataToolboxCommonFile.getText( "UTF-8" ) : "error"
+    from "${rootProject.buildDir}/resources/main/assets/js"
+    into "${rootProject.buildDir}/resources/main/assets/js"
+    include 'export-template.js'
+    rename( 'export-template.js', 'export.js' )
+    filter( org.apache.tools.ant.filters.ReplaceTokens,
+            tokens: [widgetWorkAround: jsFwkContent, widgetWorkAround2: dataToolboxCommonContent] )
+}
+
+//TODO Replace by proper plugin
+task lessc( type: Exec, dependsOn: processResources ) {
+    executable = 'lessc'
+    args = ['build/resources/main/assets/style/main.less',
+            'build/resources/main/assets/style/main.css']
+
+}
+jar.dependsOn lessc
+jar.dependsOn dirtyWidgetWorkaround
+
+bintray {
+    user = project.hasProperty( 'user' ) ? project.property( 'user' ) : "user"
+    key = project.hasProperty( 'key' ) ? project.property( 'key' ) : "key"
+    configurations = ['archives']
+    pkg {
+        repo = 'rcd-repo'
+        name = 'datatoolbox'
+        licenses = ['Apache-2.0']
+        vcsUrl = 'https://github.com/GlennRicaud/data-toolbox-app.git'
+    }
+}

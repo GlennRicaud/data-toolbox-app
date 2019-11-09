@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg4137" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 99.999997 99.999997">
+ <metadata id="metadata4142">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -952.36)" fill="#333">
+  <path id="rect4685" d="m10.586 980.36c-4.7569 0-8.586 3.83-8.586 8.59v2.9062h96v-2.9062c0-4.7568-3.8291-8.5859-8.5859-8.5859h-78.828zm-8.586 16.04v35.4c0 4.7568 3.8291 8.5859 8.5859 8.5859h78.828c4.7568 0 8.5859-3.8291 8.5859-8.5859v-35.377h-38.211c0.135 0.29 0.211 0.63 0.211 0.99v4.5449c0 1.399-1.1263 2.5254-2.5254 2.5254h-14.949c-1.4 0-2.526-1.1-2.526-2.5v-4.5449c0-0.3601 0.07624-0.70232 0.21094-1.0117l-38.211-0.05zm48 13.963a10 5 0 0 1 10 5 10 5 0 0 1 -10 5 10 5 0 0 1 -10 -5 10 5 0 0 1 10 -5zm-10 7a10 5 0 0 0 10 5 10 5 0 0 0 10 -5v5a10 5 0 0 1 -10 5 10 5 0 0 1 -10 -5v-5zm0 7a10 5 0 0 0 10 5 10 5 0 0 0 10 -5v5a10 5 0 0 1 -10 5 10 5 0 0 1 -10 -5v-5z"/>
+  <path id="rect4687" d="m35.272 969.4c-3.4521 0-6.2305 2.7784-6.2305 6.2305v3.1074h4.748v-3.959h30v3.959h5.252v-3.1074c0-3.4521-2.7784-6.2305-6.2305-6.2305h-27.539z"/>
+  <g id="g5242" transform="matrix(.62432 0 0 .62432 5.1322 393.17)">
+   <path id="path5225" d="m10.178-42.902a12.679 12.679 0 0 0 -4.0488 0.67969l7.7168 7.7168-7.8594 7.8613-7.7617-7.7617a12.679 12.679 0 0 0 -0.7249 4.183 12.679 12.679 0 0 0 12.678 12.678 12.679 12.679 0 0 0 12.679 -12.678 12.679 12.679 0 0 0 -12.679 -12.679zm3.7305 8.3574-1.8145 6.041-6.1426 1.9004 7.957-7.9414z" transform="translate(0 952.36)"/>
+   <rect id="rect5240" ry="2.5081" transform="matrix(.70568 .70853 -.72767 .68593 0 0)" height="11.036" width="32.993" y="638.14" x="685.29"/>
+  </g>
+ </g>
+ <style id="style4830" type="text/css">.st0{fill:#333333;}</style>
+ <style id="style4998" type="text/css">.st0{fill:#333333;}</style>
+</svg>
