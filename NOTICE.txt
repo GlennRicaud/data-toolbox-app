@@ -1,10 +1,4 @@
-Licenses used by Data Toolbox App
-
-    JQuery
-    MIT License
-    https://jquery.org/license/
-    
-Artwork licenses used by this product:
+Artwork licenses used by Data Toolbox App:
     
     Roboto
     Apache License 2.0
