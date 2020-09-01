@@ -54,7 +54,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
-- 5.0.1 (Aug 1st 2020)
+- 5.0.1 (Sep 1st 2020)
   - Bug: Handle missing dump directory
 - 5.0.0 (Jul 9th 2020)
   - Adaptation: Handle XP dump archives
