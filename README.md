@@ -18,11 +18,14 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download |
 | ----------- | ------------------- | -------- |
-| 4.0.2 | 7.0.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.2/datatoolbox-4.0.2.jar) |
-| 4.0.1 | 7.0.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.1/datatoolbox-4.0.1.jar) |
-| 4.0.0 | 7.0.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.0/datatoolbox-4.0.0.jar) |
-| 3.0.1 | 7.0.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/3.0.1/datatoolbox-3.0.1.jar) |
-| 3.0.0 | 7.0.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/3.0.0/datatoolbox-3.0.0.jar) |
+| 5.0.1 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.1/datatoolbox-5.0.1.jar) |
+| 5.0.0 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.0/datatoolbox-5.0.0.jar) |
+| 4.0.3 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.3/datatoolbox-4.0.3.jar) |
+| 4.0.2 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.2/datatoolbox-4.0.2.jar) |
+| 4.0.1 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.1/datatoolbox-4.0.1.jar) |
+| 4.0.0 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.0/datatoolbox-4.0.0.jar) |
+| 3.0.1 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/3.0.1/datatoolbox-3.0.1.jar) |
+| 3.0.0 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/3.0.0/datatoolbox-3.0.0.jar) |
 | 2.2.4 | 6.13.0 - 6.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/2.2.4/datatoolbox-2.2.4.jar) |
 | 2.2.3 | 6.13.0 - 6.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/2.2.3/datatoolbox-2.2.3.jar) |
 | 2.2.2 | 6.13.0 - 6.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/2.2.2/datatoolbox-2.2.2.jar) |
@@ -52,6 +55,6 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 ## Data Toolbox semantic versioning
 
 To allow to patch old versions, the versions of DT follow the following rules
-X: Change of major Enonic XP version OR Major refactoring
-Y: Change of minimum minor Enonic XP version
-Z: Enhancement or bugfix without change in the minimum minor Enonic XP version
+- X: Change of major Enonic XP version OR Major refactoring
+- Y: Change of minimum minor Enonic XP version
+- Z: Enhancement or bugfix without change in the minimum minor Enonic XP version
