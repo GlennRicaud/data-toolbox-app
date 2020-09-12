@@ -57,8 +57,10 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 - 5.0.2 (Sep 12th 2020)
   - Enhancement: Audit Log view
+  - Compatibility:7.3.0
 - 5.0.1 (Sep 1st 2020)
   - Bug: Handle missing dump directory
+  - Compatibility:7.3.0
 - 5.0.0 (Jul 9th 2020)
   - Adaptation: Handle XP dump archives
   - Breaking change: Do not handle archive of multiple dumps (Please unzip and zip separately)
@@ -203,6 +205,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
   - Compatibility:6.8.0
 - 1.0.0 (Nov 12th 2016)
   - First release
+  - Compatibility:6.8.0
 
 ## Data Toolbox semantic versioning
 
