@@ -18,6 +18,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download |
 | ----------- | ------------------- | -------- |
+| 5.0.3 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.3/datatoolbox-5.0.3.jar) |
 | 5.0.2 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.2/datatoolbox-5.0.2.jar) |
 | 5.0.1 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.1/datatoolbox-5.0.1.jar) |
 | 5.0.0 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.0/datatoolbox-5.0.0.jar) |
@@ -55,10 +56,15 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.0.3 (Oct 3rd 2020)
+  - Documentation: Make documentation links point to Developer Portal 
+  - Compatibility:7.3.0
 - 5.0.2 (Sep 12th 2020)
   - Enhancement: Audit Log view
+  - Compatibility:7.3.0
 - 5.0.1 (Sep 1st 2020)
   - Bug: Handle missing dump directory
+  - Compatibility:7.3.0
 - 5.0.0 (Jul 9th 2020)
   - Adaptation: Handle XP dump archives
   - Breaking change: Do not handle archive of multiple dumps (Please unzip and zip separately)
@@ -203,6 +209,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
   - Compatibility:6.8.0
 - 1.0.0 (Nov 12th 2016)
   - First release
+  - Compatibility:6.8.0
 
 ## Data Toolbox semantic versioning
 
