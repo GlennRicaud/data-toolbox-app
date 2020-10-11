@@ -1,0 +1,534 @@
+{
+  "versions": {
+    "5.0.2": {
+      "date": "Sep 12th 2020",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Audit Log view"
+        }
+      ],
+      "compatibility": "7.3.0"
+    },
+    "5.0.1": {
+      "date": "Sep 1st 2020",
+      "changes": [
+        {
+          "type": "Bug",
+          "description": "Handle missing dump directory"
+        }
+      ],
+      "compatibility": "7.3.0"
+    },
+    "5.0.0": {
+      "date": "Jul 9th 2020",
+      "changes": [
+        {
+          "type": "Adaptation",
+          "description": "Handle XP dump archives"
+        },
+        {
+          "type": "Breaking change",
+          "description": "Do not handle archive of multiple dumps (Please unzip and zip separately)"
+        }
+      ],
+      "compatibility": "7.3.0"
+    },
+    "4.0.3": {
+      "date": "Mar 1st 2020",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Tasks view"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Use Event WS as default source of task state information"
+        }
+      ],
+      "compatibility": "7.0.0"
+    },
+    "4.0.2": {
+      "date": "Feb 15th 2020",
+      "changes": [
+        {
+          "type": "Bug",
+          "description": "Fix group display"
+        }
+      ],
+      "compatibility": "7.0.0"
+    },
+    "4.0.1": {
+      "date": "Feb 15th 2020",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "IAM - Iteration 1"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Data Tables - Rows per page"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Improve logging coverage"
+        },
+        {
+          "type": "Bug",
+          "description": "Fix node export upload"
+        }
+      ],
+      "compatibility": "7.0.0"
+    },
+    "4.0.0": {
+      "date": "Feb 13th 2020",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Replace JQuery by Fetch API"
+        },
+        {
+          "type": "Refactoring",
+          "description": "Optimized build"
+        },
+        {
+          "type": "Refactoring",
+          "description": "ECMAScript 6"
+        }
+      ],
+      "compatibility": "7.0.0"
+    },
+    "3.0.1": {
+      "date": "Jun 11th 2019",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Nav items & breadcrumbs as HTML links"
+        }
+      ],
+      "compatibility": "7.0.0"
+    },
+    "3.0.0": {
+      "date": "May 18th 2019",
+      "changes": [
+        {
+          "type": "Adaptation",
+          "description": "Adapt to Enonic 7.0 changes"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Blob display"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Version view"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Dump upgrade"
+        }
+      ],
+      "compatibility": "7.0.0"
+    },
+    "2.2.7": {
+      "date": "Feb 14th 2020",
+      "changes": [
+        {
+          "type": "Bug",
+          "description": "404 error on task retrieval"
+        }
+      ],
+      "compatibility": "6.13.0"
+    },
+    "2.2.6": {
+      "date": "Aug 6th 2019",
+      "changes": [
+        {
+          "type": "Bug",
+          "description": "Handle 6.11/6.12 dumps"
+        }
+      ],
+      "compatibility": "6.13.0"
+    },
+    "2.2.5": {
+      "date": "May 25th 2019",
+      "changes": [
+        {
+          "type": "Adaptation",
+          "description": "Use admin task endpoint for progress"
+        },
+        {
+          "type": "Bug",
+          "description": "Fixed widget service URL"
+        }
+      ],
+      "compatibility": "6.13.0"
+    },
+    "2.2.4": {
+      "date": "Mar 24th 2019",
+      "changes": [
+        {
+          "type": "Bug",
+          "description": "Synchronous snapshot restore operation"
+        }
+      ],
+      "compatibility": "6.13.0"
+    },
+    "2.2.3": {
+      "date": "Sep 26th 2018",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Download binary reference"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Dump without version history (Enonic XP >=6.14.0)"
+        }
+      ],
+      "compatibility": "6.13.0"
+    },
+    "2.2.2": {
+      "date": "Sep 25th 2018",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Node search: Paging and sorting"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Node view: Search/Branch/Version Index Document"
+        }
+      ],
+      "compatibility": "6.13.0"
+    },
+    "2.2.1": {
+      "date": "Sep 21st 2018",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "About page"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Node view"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Advanced search"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Quick search"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Follow reference"
+        }
+      ],
+      "compatibility": "6.13.0"
+    },
+    "2.2.0": {
+      "date": "Apr 1st 2018",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Import/export progress"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Dump/load progress"
+        },
+        {
+          "type": "Bug",
+          "description": "Encode/decode state parameters"
+        }
+      ],
+      "compatibility": "6.13.0"
+    },
+    "2.1.7": {
+      "date": "Mar 11th 2018",
+      "changes": [
+        {
+          "type": "Adaptation",
+          "description": "Handle multiple displays export widget (Required by Enonic XP 6.14)"
+        }
+      ],
+      "compatibility": "6.11.0"
+    },
+    "2.1.6": {
+      "date": "Mar 11th 2018",
+      "changes": [
+        {
+          "type": "Bug",
+          "description": "Node properties - Handle JSON/HTML special characters"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Minor UI improvements (fav icon, boolean/string fields, ...)"
+        }
+      ],
+      "compatibility": "6.11.0"
+    },
+    "2.1.5": {
+      "date": "Jan 7th 2018",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Exports Widget - Specify target parent content path"
+        }
+      ],
+      "compatibility": "6.11.0"
+    },
+    "2.1.4": {
+      "date": "Dec 6th 2017",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Asynchronous requests for heavy operations"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Node properties creation/edition"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Rename/move node"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Successful action snackbars"
+        }
+      ],
+      "compatibility": "6.11.0"
+    },
+    "2.1.3": {
+      "date": "Oct 16th 2017",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Widget listed only for system admins (Enonic XP >=6.12)"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Branch name in default export names"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Parent row - New first row allowing to navigate to parent node/branch"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Node permissions view (Read only)"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Node metadata view (Read only)"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Node data view (Read only)"
+        }
+      ],
+      "compatibility": "6.11.0"
+    },
+    "2.1.2": {
+      "date": "Sep 25th 2017",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Node export report"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Dump generation report"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Dump load report"
+        }
+      ],
+      "compatibility": "6.11.0"
+    },
+    "2.1.1": {
+      "date": "Aug 15th 2017",
+      "changes": [
+        {
+          "type": "Bug",
+          "description": "Exports should not include versions"
+        }
+      ],
+      "compatibility": "6.11.0"
+    },
+    "2.1.0": {
+      "date": "Jul 13th 2017",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Handle 6.11 system dumps (Required by Enonic XP 6.11)"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Backward compatibility for <6.11 system dumps"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Display dump versions"
+        },
+        {
+          "type": "Bug",
+          "description": "Delete branch fix"
+        }
+      ],
+      "compatibility": "6.11.0"
+    },
+    "2.0.1": {
+      "date": "Jun 16th 2017",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Node details: JSON formating and HTML escaping"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Nodes view: Node sorting"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Nodes view: Node filtering"
+        },
+        {
+          "type": "Bug",
+          "description": "Node/Content import report: Updated node paths are now displayed correctly"
+        }
+      ],
+      "compatibility": "6.10.0"
+    },
+    "2.0.0": {
+      "date": "May 18th 2017",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Responsiveness & stricter implementation of Material specifications"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Content/Node import report"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Help dialogs"
+        }
+      ],
+      "compatibility": "6.10.0"
+    },
+    "1.2.0": {
+      "date": "Mar 26th 2017",
+      "changes": [
+        {
+          "type": "Adaptation",
+          "description": "Enonic XP 6.10 snapshot API (Required by Enonic XP 6.10)"
+        }
+      ],
+      "compatibility": "6.10.0"
+    },
+    "1.1.1": {
+      "date": "Mar 12th 2017",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Exports view"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Repositories/Branches/Nodes views"
+        }
+      ],
+      "compatibility": "6.9.0"
+    },
+    "1.1.0": {
+      "date": "Jan 17th 2017",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Handle custom repositories and branches (Required by Enonic XP 6.9)"
+        }
+      ],
+      "compatibility": "6.9.0"
+    },
+    "1.0.6": {
+      "date": "Mar 12th 2017",
+      "changes": [
+        {
+          "type": "Bug",
+          "description": "Cross-env zip usage"
+        }
+      ],
+      "compatibility": "6.8.0"
+    },
+    "1.0.5": {
+      "date": "Dec 17th 2016",
+      "changes": [
+        {
+          "type": "Bug",
+          "description": "Modified size retrieval of temporary files (Required by Enonic XP 6.9)"
+        }
+      ],
+      "compatibility": "6.8.0"
+    },
+    "1.0.4": {
+      "date": "Nov 24th 2016",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Handle selfmade zips"
+        },
+        {
+          "type": "Enhancement",
+          "description": "Handle MAC OS X Finder zips"
+        }
+      ],
+      "compatibility": "6.8.0"
+    },
+    "1.0.3": {
+      "date": "Nov 19th 2016",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Display network & server errors"
+        }
+      ],
+      "compatibility": "6.8.0"
+    },
+    "1.0.2": {
+      "date": "Nov 14th 2016",
+      "changes": [
+        {
+          "type": "Bug",
+          "description": "Fix doUpload method call"
+        }
+      ],
+      "compatibility": "6.8.0"
+    },
+    "1.0.1": {
+      "date": "Nov 13th 2016",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "Hide widget if user is missing admin role"
+        }
+      ],
+      "compatibility": "6.8.0"
+    },
+    "1.0.0": {
+      "date": "Nov 12th 2016",
+      "changes": [
+        {
+          "type": "Enhancement",
+          "description": "First release"
+        }
+      ],
+      "compatibility": "6.8.0"
+    }
+  }
+}
