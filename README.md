@@ -18,6 +18,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download |
 | ----------- | ------------------- | -------- |
+| 5.0.4 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.4/datatoolbox-5.0.4.jar) |
 | 5.0.3 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.3/datatoolbox-5.0.3.jar) |
 | 5.0.2 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.2/datatoolbox-5.0.2.jar) |
 | 5.0.1 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.1/datatoolbox-5.0.1.jar) |
@@ -56,6 +57,10 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.0.4 (Oct 18th 2020)
+  - Enhancement: Node search: Result report generation
+  - Enhancement: Node search: Display score
+  - Compatibility:7.3.0
 - 5.0.3 (Oct 3rd 2020)
   - Documentation: Make documentation links point to Developer Portal 
   - Compatibility:7.3.0
