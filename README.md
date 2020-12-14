@@ -61,6 +61,9 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.0.9 (Dec 14th 2020)
+  - Bug: Fix layout display for >=1600px viewport width
+  - Compatibility:7.3.0
 - 5.0.8 (Dec 12th 2020)
   - Enhancement: Events view
   - Compatibility:7.3.0
