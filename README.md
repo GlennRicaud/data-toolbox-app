@@ -16,22 +16,22 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Releases and Compatibility
 
-| App version | Required XP version | Download |
-| ----------- | ------------------- | -------- |
-| 5.0.9 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.9/datatoolbox-5.0.9.jar) |
-| 5.0.8 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.8/datatoolbox-5.0.8.jar) |
-| 5.0.7 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.7/datatoolbox-5.0.7.jar) |
-| 5.0.6 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.6/datatoolbox-5.0.6.jar) |
-| 5.0.5 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.5/datatoolbox-5.0.5.jar) |
-| 5.0.4 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.4/datatoolbox-5.0.4.jar) |
-| 5.0.3 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.3/datatoolbox-5.0.3.jar) |
-| 5.0.2 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.2/datatoolbox-5.0.2.jar) |
-| 5.0.1 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.1/datatoolbox-5.0.1.jar) |
-| 5.0.0 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.0/datatoolbox-5.0.0.jar) |
-| 4.0.3 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.3/datatoolbox-4.0.3.jar) |
-| 4.0.2 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.2/datatoolbox-4.0.2.jar) |
-| 4.0.1 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.1/datatoolbox-4.0.1.jar) |
-| 4.0.0 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.0/datatoolbox-4.0.0.jar) |
+| App version | Required XP version | Download | SHA256 |
+| ----------- | ------------------- | -------- | ------ |
+| 5.0.9 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.9/datatoolbox-5.0.9.jar) | ba5446b8c85591ff4c72691bb3377fb7993a52e8836df585d9ebfdadb7e5d7f0 |
+| 5.0.8 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.8/datatoolbox-5.0.8.jar) | df8eae1640f37ca8d7ba8a97b030b983614ee286e92017ac3ccd032afe63496b |
+| 5.0.7 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.7/datatoolbox-5.0.7.jar) | 00cf173294b424127e59272af119fd14ef63f4506e4047cba7f520380d039528 |
+| 5.0.6 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.6/datatoolbox-5.0.6.jar) | e4ded49ed0dceb704aca82155cff0058e5f9ee140337d6d0a4dbf9a63fab0628 |
+| 5.0.5 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.5/datatoolbox-5.0.5.jar) | 313c67bf442125d6e933c83f235edbc077711aa58cd662c4f4b002390f36dc9e |
+| 5.0.4 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.4/datatoolbox-5.0.4.jar) | 9b541aa328fe34b524d8cb0641ff9331f106d8903ddc7030c0a4d3b06fe4261c |
+| 5.0.3 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.3/datatoolbox-5.0.3.jar) | 16a0ee1a196f48e22c4e0f316b199b87b3205b8c8eafd537082d55798f065e82 |
+| 5.0.2 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.2/datatoolbox-5.0.2.jar) | e8cb4498592f6f7ba840a57ef2cc43899bd058b0c1256d6293add0df24bedc5c |
+| 5.0.1 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.1/datatoolbox-5.0.1.jar) | a3050e445e8ffed0bcf3b8241b1782321df19256c506b3d7c06119c20a1e7c5c |
+| 5.0.0 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.0/datatoolbox-5.0.0.jar) | 7f03730a24889a54fa782f90d3c88e987d5fe7844859b30fb6078db9b53869ff |
+| 4.0.3 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.3/datatoolbox-4.0.3.jar) | cdba93c8e5c244d5a4aa4584f977a2b616adf929eecedc487a812ad859646412 |
+| 4.0.2 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.2/datatoolbox-4.0.2.jar) | a4816e9450e13eeaa75a63c260f8490ab2e33eba1c34ff9cc0b268e961a574dd |
+| 4.0.1 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.1/datatoolbox-4.0.1.jar) | 09d373988c80f0c4a3e344f9fe733a3878b9ecfaa353204836d638f2260a40bb |
+| 4.0.0 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/4.0.0/datatoolbox-4.0.0.jar) | e19c54edfee4b7cc67fa3504437139a57b74cb1ba65825494efce12578321523 |
 | 3.0.1 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/3.0.1/datatoolbox-3.0.1.jar) |
 | 3.0.0 | 7.0.0 - 7.2.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/3.0.0/datatoolbox-3.0.0.jar) |
 | 2.2.4 | 6.13.0 - 6.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/2.2.4/datatoolbox-2.2.4.jar) |
