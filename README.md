@@ -18,6 +18,10 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download |
 | ----------- | ------------------- | -------- |
+| 5.0.9 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.9/datatoolbox-5.0.9.jar) |
+| 5.0.8 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.8/datatoolbox-5.0.8.jar) |
+| 5.0.7 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.7/datatoolbox-5.0.7.jar) |
+| 5.0.6 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.6/datatoolbox-5.0.6.jar) |
 | 5.0.5 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.5/datatoolbox-5.0.5.jar) |
 | 5.0.4 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.4/datatoolbox-5.0.4.jar) |
 | 5.0.3 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.3/datatoolbox-5.0.3.jar) |
@@ -58,6 +62,18 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.0.9 (Dec 14th 2020)
+  - Bug: Fix layout display for >=1600px viewport width
+  - Compatibility:7.3.0
+- 5.0.8 (Dec 12th 2020)
+  - Enhancement: Events view
+  - Compatibility:7.3.0
+- 5.0.7 (Nov 27th 2020)
+  - Bug: Task Manager: Keep websocket connection alive
+  - Compatibility:7.3.0
+- 5.0.6 (Nov 27th 2020)
+  - Enhancement: Node versions: Active versions & Set active
+  - Compatibility:7.3.0
 - 5.0.5 (Nov 15th 2020)
   - Enhancement: Node versions: Display commit
   - Compatibility:7.3.0
