@@ -18,6 +18,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download | SHA256 |
 | ----------- | ------------------- | -------- | ------ |
+| 5.0.11 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.11/datatoolbox-5.0.11.jar) | 1ba675c18939c22e40e8f5c1b81ecb65818b18082b9db12dfbd0108ee2660a3c |
 | 5.0.10 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.10/datatoolbox-5.0.10.jar) | b911b0abd5ba11dff5eecfbae60fdac2eb5a5a4a9b53652c6fe3f27d65d9359f |
 | 5.0.9 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.9/datatoolbox-5.0.9.jar) | ba5446b8c85591ff4c72691bb3377fb7993a52e8836df585d9ebfdadb7e5d7f0 |
 | 5.0.8 | 7.3.0 - 7.Y.Z | [Download](https://dl.bintray.com/rcd-systems/rcd-repo/systems/rcd/enonic/datatoolbox/5.0.8/datatoolbox-5.0.8.jar) | df8eae1640f37ca8d7ba8a97b030b983614ee286e92017ac3ccd032afe63496b |
@@ -63,6 +64,9 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.0.11 (Mar 31st 2021)
+  - Enhancement: Node Search: Filters
+  - Compatibility:7.3.0
 - 5.0.10 (Feb 28th 2021)
   - Enhancement: Node View: Push node
   - Compatibility:7.3.0
