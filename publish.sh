@@ -1,0 +1,1 @@
+./gradlew clean build artifactoryPublish -Puser=user -Pkey=key
