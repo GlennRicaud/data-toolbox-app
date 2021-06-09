@@ -18,6 +18,8 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download | SHA256 |
 | ----------- | ------------------- | -------- | ------ |
+| 5.0.14 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.14/datatoolbox-5.0.14.jar) | fdd8ce5c5fb1e9eda7dd925125f21fc5efff724b11913fc5e79968aa1305ddd4 |
+| 5.0.13 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.13/datatoolbox-5.0.13.jar) | e08e909c69fd4b7c8af2971accc00fd1448beb1629a7fd7a44fb8ce863d75e45 |
 | 5.0.12 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.12/datatoolbox-5.0.12.jar) | 35b6c4a814fd85de1912276d57c35d4fa568181aa813cedb6af2e5e6dd019b9e |
 | 5.0.11 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.11/datatoolbox-5.0.11.jar) | 1ba675c18939c22e40e8f5c1b81ecb65818b18082b9db12dfbd0108ee2660a3c |
 | 5.0.10 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.10/datatoolbox-5.0.10.jar) | b911b0abd5ba11dff5eecfbae60fdac2eb5a5a4a9b53652c6fe3f27d65d9359f |
@@ -68,6 +70,12 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.0.14 (June 9th 2021)
+  - Adaptation: Fix script engine access in XP 7.7
+  - Compatibility:7.3.0
+- 5.0.13 (May 13th 2021)
+  - Enhancement: Navigability: Actions & ListRows as buttons
+  - Compatibility:7.3.0
 - 5.0.12 (May 9th 2021)
   - Enhancement: Navigability: Anchors in tables and view summaries
   - Compatibility:7.3.0

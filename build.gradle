@@ -34,10 +34,10 @@ dependencies {
     include "com.enonic.xp:lib-node:${xpVersion}"
     include "com.enonic.xp:lib-task:${xpVersion}"
     include 'com.enonic.lib:lib-mustache:2.0.0'
-    include "systems.rcd.fwk.core:rcd-fwk-core:8.0.0"
-    include "systems.rcd.js.fwk.core:rcd-jsfwk-core:5.0.0"
-    include "systems.rcd.js.fwk.material:rcd-jsfwk-material:4.2.0"
-    include( "systems.rcd.enonic:datatoolbox-base:2.1.12" ) {
+    include "systems.rcd.fwk.core:rcd-fwk-core:8.0.1"
+    include "systems.rcd.js.fwk.core:rcd-jsfwk-core:5.1.0"
+    include "systems.rcd.js.fwk.material:rcd-jsfwk-material:5.0.0"
+    include( "systems.rcd.enonic:datatoolbox-base:2.1.14" ) {
         transitive = false
     }
 }
