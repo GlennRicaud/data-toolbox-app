@@ -18,6 +18,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download | SHA256 |
 | ----------- | ------------------- | -------- | ------ |
+| 5.0.16 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.16/datatoolbox-5.0.16.jar) | b7dc67d410ea94b103943daac93de50b67cc0ca35e574269bb8a586e9d107ff0 |
 | 5.0.15 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.15/datatoolbox-5.0.15.jar) | cddbf134dc72c5aff17a45267bb21a0c154612cf75c583f7f8eab06221f6bafd |
 | 5.0.14 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.14/datatoolbox-5.0.14.jar) | fdd8ce5c5fb1e9eda7dd925125f21fc5efff724b11913fc5e79968aa1305ddd4 |
 | 5.0.13 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.13/datatoolbox-5.0.13.jar) | e08e909c69fd4b7c8af2971accc00fd1448beb1629a7fd7a44fb8ce863d75e45 |
@@ -71,6 +72,9 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.0.16 (Sept 12th 2021)
+  - Enhancement: Analyze view
+  - Compatibility:7.3.0
 - 5.0.15 (July 18th 2021)
   - Refactoring: Remove Nashorn dependency
   - Refactoring: Remove non-WOFF font formats
