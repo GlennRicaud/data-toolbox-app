@@ -18,6 +18,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download | SHA256 |
 | ----------- | ------------------- | -------- | ------ |
+| 5.0.19 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.19/datatoolbox-5.0.19.jar) | acce45ec5b5386f63e608467d9dc21929163c5eb1fec5cc63208f4861e979110 |
 | 5.0.18 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.18/datatoolbox-5.0.18.jar) | 1752eb2a07432d856317f076ee06b38ca0c687756a04efe4e465871547b0d741 |
 | 5.0.17 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.17/datatoolbox-5.0.17.jar) | 0e485576d1c67420c5604d52eb5e9a245dfae72c155cc0dbce81531ddc135f4f |
 | 5.0.16 | 7.3.0 - 7.Y.Z | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.16/datatoolbox-5.0.16.jar) | b7dc67d410ea94b103943daac93de50b67cc0ca35e574269bb8a586e9d107ff0 |
@@ -74,6 +75,9 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.0.19 (Nov 20th 2021)
+  - Bug: Handle websocket connection failure
+  - Compatibility:7.3.0
 - 5.0.18 (Nov 12th 2021)
   - Enhancement: Nodes view: Set displayed fields
   - Compatibility:7.3.0
