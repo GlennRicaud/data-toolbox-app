@@ -20,6 +20,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download                                                                                                                      | SHA256                                                           |
 |-------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| 5.0.23      | 7.3.0 - 7.Y.Z       | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.23/datatoolbox-5.0.23.jar) | 876e68165f1816cfb312689d6e17fbb461d855135217edb0934d46bf47c7ecde |
 | 5.0.22      | 7.3.0 - 7.Y.Z       | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.22/datatoolbox-5.0.22.jar) | 1ff54c61c6598bee68f8dcfe3f19f2dbfed81346f54173d1e4eca7aa72782839 |
 | 5.0.21      | 7.3.0 - 7.Y.Z       | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.21/datatoolbox-5.0.21.jar) | fa98d0529c3631be261a20709e3247b0f4bdb4a6b9a687c5e5fa143010914675 |
 | 5.0.20      | 7.3.0 - 7.Y.Z       | [Download](https://rcdsystems.jfrog.io/artifactory/maven-public/systems/rcd/enonic/datatoolbox/5.0.20/datatoolbox-5.0.20.jar) | 4eb964015f5a418eab24a7fa883d09dbe0227c44916fc6c71d4a769312556884 |
@@ -80,6 +81,9 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.0.23 (Mar 6th 2022)
+    - Enhancement: Nodes view: Create child node
+    - Compatibility:7.3.0
 - 5.0.22 (Jan 31st 2022)
     - Bug: Fix JSON string escaping
     - Compatibility:7.3.0
