@@ -36,8 +36,8 @@ dependencies {
     include 'com.enonic.lib:lib-mustache:2.0.0'
     include "systems.rcd.fwk.core:rcd-fwk-core:8.0.1"
     include "systems.rcd.js.fwk.core:rcd-jsfwk-core:5.1.0"
-    include "systems.rcd.js.fwk.material:rcd-jsfwk-material:6.0.1"
-    include( "systems.rcd.enonic:datatoolbox-base:3.0.10" ) {
+    include "systems.rcd.js.fwk.material:rcd-jsfwk-material:6.0.2"
+    include( "systems.rcd.enonic:datatoolbox-base:3.0.14" ) {
         transitive = false
     }
 }
