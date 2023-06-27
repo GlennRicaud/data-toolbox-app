@@ -1,7 +1,10 @@
 plugins {
     id "com.enonic.xp.app" version "2.0.0"
-    id "com.jfrog.artifactory" version "4.21.0"
+    //id "com.jfrog.artifactory" version "4.21.0"
     id "com.eriwen.gradle.js" version "2.14.1"
+}
+plugins {
+    id("maven-publish")
 }
 
 app {
@@ -18,9 +21,11 @@ repositories {
     maven {
         url 'https://repo.enonic.com/public'
     }
+    /*
     maven {
         url 'https://rcdsystems.jfrog.io/artifactory/maven-public'
     }
+    */
 }
 
 dependencies {
@@ -42,6 +47,7 @@ dependencies {
     }
 }
 
+/*
 artifactory {
     contextUrl = 'https://rcdsystems.jfrog.io/artifactory'
     publish {
@@ -57,6 +63,25 @@ artifactory {
             publishBuildInfo = false
             publishPom = true
             publishIvy = false
+        }
+    }
+}
+*/
+
+publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/GlennRicaud/data-toolbox-app")
+            credentials {
+                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+            }
+        }
+    }
+    publications {
+        gpr(MavenPublication) {
+            from(components.java)
         }
     }
 }
