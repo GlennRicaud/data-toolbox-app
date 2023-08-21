@@ -20,6 +20,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download                                                                                                                      | SHA256                                                           |
 |-------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| 5.0.28      | 7.3.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.0.28/datatoolbox-5.0.28.jar) | aa1cc1559ae0d8640aa4abe970de36666ac322cc081a444f3ad8c0db216760d9 |
 | 5.0.27      | 7.3.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.0.27/datatoolbox-5.0.27.jar) | 19f2ca721a6d2feae658862cfd3543349b66bcd68768f857b9ff2e622e2b7cad |
 | 5.0.26      | 7.3.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.0.26/datatoolbox-5.0.26.jar) | 1a6e65e034d45fb7d84fc4b4eded1b1ecf95f6d26d5be1c1b3c4255f35bbc861 |
 | 5.0.25      | 7.3.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.0.25/datatoolbox-5.0.25.jar) | 4f1c3ef7f90f540e090623cce4664df7ef048e031516aa4bfa32f22da401fe85 |
@@ -85,6 +86,9 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.0.28 (Aug 21st 2023)
+    - Bug: Support unicode characters in JSON view
+    - Compatibility:7.3.0
 - 5.0.27 (Aug 21st 2023)
     - Adaptation: Remove Nashorn API usage (Required by Enonic XP 7.13 / Java 17)
     - Compatibility:7.3.0
