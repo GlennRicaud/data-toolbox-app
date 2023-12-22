@@ -87,7 +87,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
-- 5.0.29 (Aug 21st 2023)
+- 5.0.29 (Dec 3rd 2023)
     - Enhancement: Display used/usable space on node export
     - Compatibility:7.3.0
 - 5.0.28 (Aug 21st 2023)
