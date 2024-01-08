@@ -28,16 +28,17 @@ dependencies {
     include "com.enonic.xp:lib-auth:${xpVersion}"
     include "com.enonic.xp:lib-content:${xpVersion}"
     include "com.enonic.xp:lib-context:${xpVersion}"
-    include "com.enonic.xp:lib-portal:${xpVersion}"
     include "com.enonic.xp:lib-io:${xpVersion}"
-    include "com.enonic.xp:lib-repo:${xpVersion}"
     include "com.enonic.xp:lib-node:${xpVersion}"
+    include "com.enonic.xp:lib-portal:${xpVersion}"
+    include "com.enonic.xp:lib-project:${xpVersion}"
+    include "com.enonic.xp:lib-repo:${xpVersion}"
     include "com.enonic.xp:lib-task:${xpVersion}"
     include 'com.enonic.lib:lib-mustache:2.0.0'
     include "systems.rcd.fwk.core:rcd-fwk-core:11.0.0"
     include "systems.rcd.js.fwk.core:rcd-jsfwk-core:5.1.0"
     include "systems.rcd.js.fwk.material:rcd-jsfwk-material:6.0.2"
-    include( "systems.rcd.enonic:datatoolbox-base:3.0.19" ) {
+    include( "systems.rcd.enonic:datatoolbox-base:3.1.0" ) {
         transitive = false
     }
 }
