@@ -20,6 +20,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download                                                                                                                      | SHA256                                                           |
 |-------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| 5.1.0       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.0/datatoolbox-5.1.0.jar)   | 3d7f42947013a1292235a49b17653cbbf064e33b19dc0436adc26ebeeec939fe |
 | 5.0.31      | 7.3.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.0.31/datatoolbox-5.0.31.jar) | 4a36cb9939a58b79df69d3235e3138c87fb4eaa11498052fb71cbd8fda0cb2ee |
 | 5.0.30      | 7.3.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.0.30/datatoolbox-5.0.30.jar) | 67d497fda26d001df0d491dc644e5c3d05f44bcdf9b0c53b667a311231982b4c |
 | 5.0.29      | 7.3.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.0.29/datatoolbox-5.0.29.jar) | a53637fb40578077b6b3c9cffb2f73bd195040e310385f62857d7e121d849808 |
@@ -89,6 +90,10 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.1.0 (Jan 8th 2024)
+    - Enhancement: Content View (Beta 1)
+    - Enhancement: Restore archived content
+    - Compatibility:7.8.0
 - 5.0.31 (Dec 27th 2023)
     - Enhancement: Progress on upload
     - Compatibility:7.3.0
