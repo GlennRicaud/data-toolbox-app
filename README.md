@@ -91,8 +91,8 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
-- 5.1.1 (Jan 8th 2024)
-    - Enhancement: Search Report: Node fields as TSV: Allow nested field
+- 5.1.1 (Jan 19th 2024)
+    - Enhancement: Search Report: Node fields as TSV (Allow nested field)
     - Compatibility:7.8.0
 - 5.1.0 (Jan 8th 2024)
     - Enhancement: Content View (Beta 1)
