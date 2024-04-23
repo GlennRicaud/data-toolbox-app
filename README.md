@@ -20,6 +20,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download                                                                                                                      | SHA256                                                           |
 |-------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| 5.1.3       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.3/datatoolbox-5.1.2.jar)   | 5167ba65f79f1152e887cc843c7a7649850ffb7826eef98bafbe8c0d4a95027d |
 | 5.1.2       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.2/datatoolbox-5.1.2.jar)   | 83df77a00a6cf51630cf906b920d63d232c8bb2af1b8ca1fd8a9880de6c4aed9 |
 | 5.1.1       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.1/datatoolbox-5.1.1.jar)   | 38ff63a808a4d3278a578a15c7071af1741fea9d59fc1bdd8c15cab4599dfb8d |
 | 5.1.0       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.0/datatoolbox-5.1.0.jar)   | 3d7f42947013a1292235a49b17653cbbf064e33b19dc0436adc26ebeeec939fe |
@@ -92,6 +93,9 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.1.3 (Apr 23rd 2024)
+    - Enhancement: Warning dialog on dump load and snapshot restore
+    - Compatibility:7.8.0
 - 5.1.2 (Mar 29th 2024)
     - Bug: Scrollable navigation drawer
     - Adaptation: Versions view: Remove "Set active in..." option (Required by Enonic XP 8)
