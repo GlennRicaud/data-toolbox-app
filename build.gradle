@@ -38,7 +38,7 @@ dependencies {
     include "systems.rcd.fwk.core:rcd-fwk-core:11.0.0"
     include "systems.rcd.js.fwk.core:rcd-jsfwk-core:5.1.0"
     include "systems.rcd.js.fwk.material:rcd-jsfwk-material:6.0.3"
-    include( "systems.rcd.enonic:datatoolbox-base:3.1.10" ) {
+    include( "systems.rcd.enonic:datatoolbox-base:3.1.11" ) {
         transitive = false
     }
 }
