@@ -20,6 +20,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download                                                                                                                      | SHA256                                                           |
 |-------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| 5.1.5       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.5/datatoolbox-5.1.5.jar)   | 3ced12336bf880f5323db4a781afd00f4c452ed97a1db17545da1f75e01123cf |
 | 5.1.4       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.4/datatoolbox-5.1.4.jar)   | 64bf10d93bef60c726d476ffb568e1d1ddab2cc2217ad45c74ec181b85455149 |
 | 5.1.3       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.3/datatoolbox-5.1.3.jar)   | 5167ba65f79f1152e887cc843c7a7649850ffb7826eef98bafbe8c0d4a95027d |
 | 5.1.2       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.2/datatoolbox-5.1.2.jar)   | 83df77a00a6cf51630cf906b920d63d232c8bb2af1b8ca1fd8a9880de6c4aed9 |
@@ -94,6 +95,9 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.1.5 (Nov 9th 2024)
+    - Adaptation: Change config attribute name (Required by Content Studio 6)
+    - Compatibility:7.8.0
 - 5.1.4 (Jun 2nd 2024)
     - Enhancement: Additional log on node retrieval failure
     - Compatibility:7.8.0
