@@ -98,10 +98,10 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 ## Changelog
 
 - 5.1.7 (Mar 3rd 2025)
-    - Bug: Fix display issues caused by new text handling
+    - Bug: Fix text display issues
     - Compatibility:7.8.0
 - 5.1.6 (Mar 3rd 2025)
-    - Bug: Fix DOM text handling
+    - Bug: Security fix
     - Compatibility:7.8.0
 - 5.1.5 (Nov 9th 2024)
     - Adaptation: Change config attribute name (Required by Content Studio 6)
