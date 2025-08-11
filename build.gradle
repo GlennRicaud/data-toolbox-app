@@ -18,6 +18,7 @@ repositories {
 
 dependencies {
     implementation "org.elasticsearch:elasticsearch:2.4.6"
+    include "org.apache.commons:commons-text:1.10.0"
     include "com.enonic.xp:lib-auth:${xpVersion}"
     include "com.enonic.xp:lib-content:${xpVersion}"
     include "com.enonic.xp:lib-context:${xpVersion}"
