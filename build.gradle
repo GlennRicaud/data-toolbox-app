@@ -1,5 +1,5 @@
 plugins {
-    id "com.enonic.xp.app" version "3.6.1"
+    id "com.enonic.xp.app" version "4.0.0-A2"
 }
 
 app {
