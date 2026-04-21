@@ -1,0 +1,6 @@
+kind: "Application"
+title: "Data Toolbox"
+description: "Visualize and manage your data"
+vendorName: "Glenn Ricaud"
+vendorUrl: "https://github.com/GlennRicaud"
+url: "https://github.com/GlennRicaud/data-toolbox-app"
