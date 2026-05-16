@@ -1,6 +1,5 @@
 plugins {
     id "com.enonic.xp.app" version "2.0.0"
-    id "com.jfrog.artifactory" version "4.21.0"
     id "com.eriwen.gradle.js" version "2.14.1"
 }
 
@@ -17,9 +16,6 @@ repositories {
     jcenter()
     maven {
         url 'https://repo.enonic.com/public'
-    }
-    maven {
-        url 'https://rcdsystems.jfrog.io/artifactory/maven-public'
     }
 }
 
@@ -38,26 +34,7 @@ dependencies {
     include "systems.rcd.fwk.core:rcd-fwk-core:11.0.0"
     include "systems.rcd.js.fwk.core:rcd-jsfwk-core:5.1.1"
     include "systems.rcd.js.fwk.material:rcd-jsfwk-material:6.0.3"
-    include( "systems.rcd.enonic:datatoolbox-base:3.1.13" ) {
+    include( "systems.rcd.enonic:datatoolbox-base:3.2.0-A1" ) {
         transitive = false
-    }
-}
-
-artifactory {
-    contextUrl = 'https://rcdsystems.jfrog.io/artifactory'
-    publish {
-        repository {
-            repoKey = 'maven-public'
-            username = project.hasProperty( 'user' ) ? project.property( 'user' ) : 'user'
-            password = project.hasProperty( 'key' ) ? project.property( 'key' ) : 'key'
-            maven = true
-        }
-        defaults {
-            publishConfigs( 'archives' )
-            publishArtifacts = true
-            publishBuildInfo = false
-            publishPom = true
-            publishIvy = false
-        }
     }
 }
