@@ -20,6 +20,9 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download                                                                                                                      | SHA256                                                           |
 |-------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| 6.0.0       | 8.0.0 - 8.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/6.0.0/datatoolbox-6.0.0.jar)   | 3baed5ca40966e99e3714a18e33af792f49fa18e6438c06f23e2cc3dce82c302 |
+| 5.2.1       | 7.16.0 - 7.Y.Z      | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.2.1/datatoolbox-5.2.1.jar)   | a67bfe9a451358fa8e3ea7f75e56347339ce0a89dc1277652c844375a651f367 |
+| 5.2.0       | 7.16.0 - 7.Y.Z      | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.2.0/datatoolbox-5.2.0.jar)   | f305eae15e2d11a14329f236bdd2c4ae20bd8a3e41677481480ded82287df091 |
 | 5.1.7       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.7/datatoolbox-5.1.7.jar)   | ab11c270b2db889f99ac17c45fbe8eee56262ecb498c87a1fdef04725b7bcf33 |
 | 5.1.6       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.6/datatoolbox-5.1.6.jar)   | 7fd56e48db110cf0a2f9d774326d1a30f42d567bce6f4f22cafe88487fa809f0 |
 | 5.1.5       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.5/datatoolbox-5.1.5.jar)   | 3ced12336bf880f5323db4a781afd00f4c452ed97a1db17545da1f75e01123cf |
@@ -97,6 +100,16 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 6.0.0 (Jun 14th 2026)
+    - Adaptation: Migrate to Enonic XP 8
+    - Compatibility:8.0.0
+- 5.2.1 (Jun 7th 2026)
+    - Enhancement: Export information (archive size & creator)
+    - Enhancement: Skip unnecessary archiving/unarchiving operation on single archived node export
+    - Compatibility:7.16.0
+- 5.2.0 (May 24th 2026)
+    - Enhancement: Archived export support
+    - Compatibility:7.16.0
 - 5.1.7 (Mar 3rd 2025)
     - Bug: Fix text display issues
     - Compatibility:7.8.0
