@@ -20,6 +20,7 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 | App version | Required XP version | Download                                                                                                                      | SHA256                                                           |
 |-------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| 5.2.2       | 7.16.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.2.2/datatoolbox-5.2.2.jar)   | f16d59147b892c434807504de0cc74b834ab8417c0681799c05604f2aaefb66d |
 | 5.2.1       | 7.16.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.2.1/datatoolbox-5.2.1.jar)   | a67bfe9a451358fa8e3ea7f75e56347339ce0a89dc1277652c844375a651f367 |
 | 5.2.0       | 7.16.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.2.0/datatoolbox-5.2.0.jar)   | f305eae15e2d11a14329f236bdd2c4ae20bd8a3e41677481480ded82287df091 |
 | 5.1.7       | 7.8.0 - 7.Y.Z       | [Download](https://github.com/GlennRicaud/maven/raw/main/systems/rcd/enonic/datatoolbox/5.1.7/datatoolbox-5.1.7.jar)   | ab11c270b2db889f99ac17c45fbe8eee56262ecb498c87a1fdef04725b7bcf33 |
@@ -99,6 +100,9 @@ Starting from version 2.0.0, help dialogs are present to give you more informati
 
 ## Changelog
 
+- 5.2.2 (Nov 6th 2026)
+    - Bug: Fix node export upload when export directory does not exist
+    - Compatibility:7.16.0
 - 5.2.1 (Jun 7th 2026)
     - Enhancement: Export information (archive size & creator)
     - Enhancement: Skip unnecessary archiving/unarchiving operation on single archived node export
